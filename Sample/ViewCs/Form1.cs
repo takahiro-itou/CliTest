@@ -19,7 +19,7 @@ namespace ViewCs
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Wrapper.MyTreeView obj = new Wrapper.MyTreeView()
+            Wrapper.MyTreeView obj = new Wrapper.MyTreeView();
             obj.drawToTreeView(this.treeView1);
         }
     }
